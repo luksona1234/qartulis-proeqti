@@ -1,0 +1,83 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    border: 3px solid black;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+
+    .satauri{
+        font-size: 50px;
+        color: black;
+        margin-left: 45%;
+        position: absolute;
+        animation-name: drop;
+        margin-top: 0px;
+        animation-iteration-count: 1;
+        animation-duration: 15s;
+        animation-delay: 0s;
+        font-weight: bold;
+    }
+
+    @keyframes drop{
+        0%{
+            margin-top: -65px;
+        }
+        100%{
+            margin-top: 0px;
+        }
+    }
+    .realizmi-info{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 75px;
+    }
+    .extra-info{
+        width: 50%;
+        border: 3px solid black;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+        .extra-realism{
+            font-size: 30px;
+            text-align: center;
+            margin-top: 15%;
+
+        }
+        
+    }
+    .img-ilia{
+        width: 20%;
+        height: 500px;
+        border: 3px solid black;
+        margin-left: 68%;
+        margin-top: -507px;
+        
+
+        .img-wavwavadze{
+            width: 100%;
+            height: 100%;
+            animation-name: appear;
+            animation-iteration-count: 1;
+            animation-delay: 0s;
+            animation-duration: 50s;
+        }
+
+        @keyframes appear{
+            0%{
+                opacity: 25%;
+            }
+            100%{
+                opacity: 100%;
+            }
+        }
+    }
+   
+    
+
+}
