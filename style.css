@@ -1,7 +1,7 @@
 .container {
   max-width: 1920px;
   width: 75%;
-  height: 2500px;
+  height: 2800px;
   border: 3px solid black;
   background-color: lightgray;
   display: flex;
@@ -26,6 +26,7 @@
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
   font-weight: bold;
+  margin-left: 568px;
 }
 @-webkit-keyframes drop {
   0% {
@@ -50,7 +51,6 @@
 }
 .container .extra-info {
   width: 50%;
-  border: 3px solid black;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -131,5 +131,50 @@
 .container .nigganaenae {
   width: 500px;
   height: 500px;
-  border: 3px solid black;
+}
+.container .naenaenigga {
+  position: absolute;
+  margin-top: 2000px;
+  text-align: center;
+  font-size: 22px;
+}
+.container .idk {
+  position: absolute;
+  margin-top: 2108px;
+  text-align: center;
+  font-size: 22px;
+}
+.container .slider {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  margin-top: 2250px;
+  margin-left: 30%;
+  overflow: hidden;
+}
+.container .slider .move {
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+.container .slider .move .charles {
+  width: 500px;
+  height: 100%;
+}
+.container .slider .move .stendal {
+  width: 500px;
+  height: 100%;
+}
+.container .l {
+  position: absolute;
+  margin-top: 2650px;
+  margin-left: 40%;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
+.container .k {
+  margin-left: 50%;
 }/*# sourceMappingURL=style.css.map */
