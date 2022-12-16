@@ -10,6 +10,7 @@
   position: relative;
   overflow: hidden;
   margin-left: 12%;
+  margin-top: 5px;
 }
 .container .satauri {
   font-size: 50px;
@@ -21,8 +22,8 @@
   margin-top: 0px;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
   font-weight: bold;
@@ -30,7 +31,7 @@
 }
 @-webkit-keyframes drop {
   0% {
-    margin-top: -65px;
+    margin-top: -70px;
   }
   100% {
     margin-top: 0px;
@@ -38,7 +39,7 @@
 }
 @keyframes drop {
   0% {
-    margin-top: -65px;
+    margin-top: -70px;
   }
   100% {
     margin-top: 0px;
@@ -60,6 +61,36 @@
   font-size: 30px;
   text-align: center;
   margin-top: 15%;
+  -webkit-animation-name: colorChange;
+          animation-name: colorChange;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+@-webkit-keyframes colorChange {
+  0% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes colorChange {
+  0% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
 }
 .container .img-ilia {
   width: 20%;
@@ -76,8 +107,8 @@
           animation-iteration-count: 1;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
-  -webkit-animation-duration: 50s;
-          animation-duration: 50s;
+  -webkit-animation-duration: 60s;
+          animation-duration: 60s;
   margin-top: 0px;
   margin-left: -45px;
 }
@@ -174,6 +205,10 @@
   width: 100px;
   height: 50px;
   background-color: red;
+}
+.container .l .dik {
+  color: white;
+  font-weight: bold;
 }
 .container .k {
   margin-left: 50%;

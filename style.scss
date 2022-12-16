@@ -10,6 +10,7 @@
     position: relative;
     overflow: hidden;
     margin-left: 12%;
+    margin-top: 5px;
 
     .satauri{
         font-size: 50px;
@@ -19,7 +20,7 @@
         animation-name: drop;
         margin-top: 0px;
         animation-iteration-count: 1;
-        animation-duration: 15s;
+        animation-duration: 20s;
         animation-delay: 0s;
         font-weight: bold;
         margin-left: 568px;
@@ -27,7 +28,7 @@
 
     @keyframes drop{
         0%{
-            margin-top: -65px;
+            margin-top: -70px;
         }
         100%{
             margin-top: 0px;
@@ -49,7 +50,22 @@
             font-size: 30px;
             text-align: center;
             margin-top: 15%;
+            animation-name: colorChange;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            animation-duration: 5s;
 
+            @keyframes colorChange {
+                0%{
+                    color: black;
+                }
+                50%{
+                    color: red;
+                }
+                100%{
+                    color: black;
+                }
+            }
         }
         
     }
@@ -67,7 +83,7 @@
             animation-name: appear;
             animation-iteration-count: 1;
             animation-delay: 0s;
-            animation-duration: 50s;
+            animation-duration: 60s;
             margin-top: -0px;
             margin-left: -45px;
         }
@@ -165,6 +181,11 @@
         width: 100px;
         height: 50px;
         background-color: red;
+
+        .dik{
+            color: white;
+            font-weight: bold;
+        }
     }
     .k{
         margin-left: 50%;
