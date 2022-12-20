@@ -1,7 +1,7 @@
 .container{
     max-width: 1920px;
     width: 75%;
-    height: 2800px;
+    height: 3500px;
     border: 3px solid black;
     background-color: lightgray;
     display: flex;
@@ -189,5 +189,34 @@
     }
     .k{
         margin-left: 50%;
+    }
+    .kacia-adamiani{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 950px;
+    }
+    .LL{
+        width: 1300px;
+        height: 500px;
+        border: 8px solid black;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+
+        .luarsabi{
+            width: 50%;
+            height: 100%;
+
+        }
+        .lu{
+            border-right: 8px solid black;
+        }
+        .ku{
+            border-left: 8px solid black;
+        }
+        
+
     }
 }
